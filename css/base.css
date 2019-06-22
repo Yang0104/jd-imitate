@@ -29,7 +29,7 @@ ul{
     list-style: none;
     padding: 0;
 }
-ul h1 {
+ul,h1,p,input,button {
     margin: 0;
     padding: 0;
 }
@@ -93,6 +93,7 @@ margin-left: 200px;
 /* 中间大部分 start*/
 .middle{
     height: 140px;
+    font-size: 12px;
     /* background-color: pink; */
     position: relative;
 }
@@ -107,6 +108,7 @@ margin-left: 200px;
     height: 191px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, .3)
 }
+/* 搜索框 */
 .form{
     position: absolute;
     width: 550px;
@@ -130,4 +132,94 @@ margin-left: 200px;
     background-color: #f10215;
     float: left;    /* 浮动防止button下移 */
 }
+.form button i{
+    font-family: "icomoon";
+    font-style: normal;
+    color: #ffffff;
+}
+/* 购物车 */
+.shopcar{
+    width: 188px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 25px;
+    right: 95px;
+    background-color: #fff;
+    color: #f10215;
+    text-align: center;
+}
+.shopcar i{
+    font-family: "icomoon";
+    font-style: normal;
+    margin-right: 3px;
+}
+.shopcar span{
+    width: 15px;
+    height: 15px;
+    background-color: #f10125;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    right: 36px;
+    line-height: 15px;
+}
+/* 关键词模块 */
+.hotwords{
+    position: absolute;
+    top: 68px;
+    left: 320px;
+}
+.hotwords a{
+    margin-right: 6px;
+}
+/* <!-- 小导航模块 --> */
+.navitems {
+    width: 770px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+    line-height: 40px;
+}
+.navitems li{
+    float: left;
+    margin-left: 20px;
+}
+.navitems li a{
+    font-size: 15px;
+    font-weight: 700;
+    color: 555;
+}
+.navitems li a:hover{
+    color: #f10125;
+}
+.navitems .space {
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: -10px;
+}
 /* 中间大部分 end*/
+
+/* 页面底部 */
+footer{
+    height: 500px;
+    margin-top: 35px;
+    border-right-color: #eaeaea;
+    color: p
+}
+.service{
+    padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+.service ul li{
+    width: 297px;
+    height: 43px;
+    background-color: purple;
+}
+.service li p{
+    font-weight: 700;
+    margin-left: 82px;
+}
