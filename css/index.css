@@ -1,0 +1,28 @@
+.grid{
+    height: 480px;
+}
+.grid-col1{
+    height: 100%;
+    width: 190px;
+    background-color: pink;
+    font-size: 16px;
+    color: #fff;   /* 设置 / 的大小 */
+}
+.grid a{
+    font-size: 16px;
+    color: #fff;   /* 设置链接文字的大小 */
+}
+.grid-col1 ul{
+    padding: 20px 0;
+}
+.grid-col2{
+    height: 100%;
+    width: 790px;
+    background-color: purple;
+    margin-left: 10px;
+}
+.grid-col3{
+    height: 100%;
+    width: 190px;
+    background-color: red;
+}
