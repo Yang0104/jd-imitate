@@ -260,6 +260,9 @@ footer a{
     width: 192px;
     float: left;
 }
+dd{
+    cursor: pointer;   /*  改变dd tag的光标形状; */
+}
 .help dt,
 .coverage h5{
     height: 30px;
@@ -300,6 +303,9 @@ footer a{
 .copyright a{
     color: #666;
 }
+.copyright a:hover{
+    color: #f10125;
+}
 .copyright span{
     margin: 0 10px;
 }
@@ -315,14 +321,9 @@ footer a{
     width: 103px;
     height: 33px;
     margin: 20px 2px 0;
-    border-radius: 0%;
-    transition-property: border-radius;
-    transition-duration: 2s;
-    transition-delay: 2s;
-
 }
 .foot-icon a:hover{
-    border-radius: 80%;
+    border-radius: 50%;
     box-shadow: 2px 3px 5px;
 }
 .foot-icon a:nth-child(2){
