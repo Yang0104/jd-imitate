@@ -2,6 +2,9 @@
     width: 1190px;/* 京东版心宽度 */
     margin: 0 auto;
 }
+img{
+    vertical-align: top;
+}
 .f10{
     color: #f10215!important;
 }
@@ -105,7 +108,7 @@ margin-left: 200px;
     display: block;
     background: url(../images/logo.jpg) no-repeat;
     width: 190px;
-    height: 191px;
+    height: 170px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, .3)
 }
 /* 搜索框 */
