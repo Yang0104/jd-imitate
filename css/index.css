@@ -77,6 +77,9 @@ ul{
     margin: 4.5px;
     cursor: pointer;
 }
+.circle .current{
+    background-color: #f10125;
+}
 .grid-col2-b img{
     margin-top: 10px;
 }
@@ -88,10 +91,10 @@ ul{
 /* 右边模块 */
 .login{
     height: 115px;
-    background-color: pink;
     border-bottom: 1px solid #ccc;
     padding: 15px;
     box-sizing: border-box;
+    background-color: #fff;
 }
 .login-t{
     position: relative;
@@ -116,17 +119,103 @@ ul{
     width: 50px;
     height: 50px;
     left: 0px;
+    top: 0px;
+    background: url(../images/sprite_userinfo@1x.png) no-repeat -70px 0;
 }
-/* .profile a{
-    width: 100%;
-    height: 100%;
-} */
+.profile img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.login-b a{
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    border: 2px solid #f10125;
+    margin-right: 3px;
+    text-align: center;
+    color: #f10125;
+    font-size: 12px;
+}
+.login-b a:hover{
+    background-color: #f10125;
+    color: #fff;
+}
 .news{
     height: 155px;
-    background-color: purple;
+    background-color: #fff;
     border-bottom: 1px solid #ccc;
+    padding: 7px 13px 0;
+    box-sizing: border-box;
+    color: #ccc;
+    font-size: 12px;
+}
+.news-t{
+    height: 19px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.news-t a{
+    float: left;
+    height: 17px;
+    line-height: 17px;
+}
+.news-t div{
+    width: 28px;
+    height: 2px;
+    background-color: #f10125;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+}
+.first{
+    width: 38px;
+    border-right: 1px solid #ccc;
+}
+.last{
+    margin-left: 15px;
+}
+.news-t .more{
+    float: right;
+}
+.news-b{
+    padding-top: 15px;
+}
+.news-b li{
+    line-height: 23px;
+    height: 23px;
 }
 .expands{
     height: 209px;
-    background-color: pink;
+    background-color: #fff;
+    overflow: hidden
+}
+.expands ul{
+    width: 195px;
+}
+.expands li{
+    width: 47px;
+    height: 69px;
+    float: left;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.expands li i{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: url(../images/sprite_fs@1x.png) no-repeat;
+    width: 18px;
+    height: 23px;
+    background-position: -5px -88px;
+}
+.expands li i:first-child{
+
+}
+.expands li a{
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0 auto;
 }
