@@ -200,18 +200,55 @@ ul{
     float: left;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+    font-size: 12px;
 }
 .expands li i{
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     background: url(../images/sprite_fs@1x.png) no-repeat;
     width: 18px;
     height: 23px;
     background-position: -5px -88px;
 }
-.expands li i:first-child{
-
+.expands li:nth-child(1){
+    background-position: -5px -88px;
+    
+}
+.expands li:nth-child(2){
+    background-position: -1px -45px;
+    /* width: 20px;
+    height: 21px; */
+}
+.expands li:nth-child(3){
+    background-position: -5px -88px
+}
+.expands li:nth-child(4){
+    background-position: -5px -88px
+}
+.expands li:nth-child(5){
+    background-position: -5px -88px
+}
+.expands li:nth-child(6){
+    background-position: -5px -88px
+}
+.expands li:nth-child(7){
+    background-position: -5px -88px
+}
+.expands li:nth-child(8){
+    background-position: -5px -88px
+}
+.expands li:nth-child(9){
+    background-position: -5px -88px
+}
+.expands li:nth-child(10){
+    background-position: -5px -88px
+}
+.expands li:nth-child(11){
+    background-position: -5px -88px
+}
+.expands li:nth-child(12){
+    background-position: -5px -88px
 }
 .expands li a{
     display: block;
